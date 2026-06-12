@@ -22,6 +22,13 @@ graph LR
 
 > 也可直接使用 [draw2xml-skill](draw2xml-skill/SKILL.md) 将 PPT 流程图自动解析为 XML，一步到位。
 
+### Skill概要
+
+> 需要准备有视觉能力的LLM API key
+- 导出为PDF
+- PDF转图片
+- VLM解析为xml
+
 ### PPT绘图
 
 示例图片：
