@@ -2,9 +2,11 @@
 from .base_client import BaseLLMClient
 from .fake_client import FakeLLMClient
 from .openai_client import OpenAIClient
+from .deepseek_client import DeepSeekClient
 
 __all__ = [
     'BaseLLMClient',
     'FakeLLMClient',
-    'OpenAIClient'
+    'OpenAIClient',
+    'DeepSeekClient',
 ]
