@@ -12,11 +12,16 @@
 graph LR
     A[PPT Drawing] -->|AI 分析| B[HTML Description];
     B -->|AI 代码生成| C[Generated Code];
+    A -->|draw2xml-skill| D[XML Workflow];
     style A fill:#e0f7fa,stroke:#263238,stroke-width:2px,color:#263238
     style B fill:#f1f8e9,stroke:#263238,stroke-width:2px,color:#263238
     style C fill:#fffde7,stroke:#263238,stroke-width:2px,color:#263238
+    style D fill:#e8f5e9,stroke:#263238,stroke-width:2px,color:#263238
 
 ```
+
+> 也可直接使用 [draw2xml-skill](draw2xml-skill/SKILL.md) 将 PPT 流程图自动解析为 XML，一步到位。
+
 ### PPT绘图
 
 示例图片：
